@@ -51,7 +51,6 @@
 }
 
 .hero-text{
-    border: 3px solid red;
     width: 800px;
     margin: 100px ;
     padding-top: 50px;
@@ -88,7 +87,6 @@
 }
 .hero-image{
     background-color: azure;
-    border: 3px solid red;
     width: 1200px;
     height: 400px;
     margin:100px;
@@ -99,13 +97,13 @@
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
-    margin: 050px;
+    margin-top: 20px;
 }
 
 .service-container{
     display: flex;
     justify-content: center;
-    border: 3px solid red;
+    padding-bottom: 5%;
 }
 
 .service-image{
@@ -117,7 +115,7 @@
 
 .service-photo{
     border-radius: 10px;
-    border: 3px solid blue;
+    border: 3px solid #3882f6;
     width: 150px;
     height: 150px;
     margin-top: 20 2px;
@@ -127,7 +125,6 @@
     background-color: #f9faf8;
     margin:0 10px;
     text-align:center;
-    border: 1px solid red;
     color: #1f2937; 
 }
 
@@ -137,8 +134,7 @@
     flex-direction: column;
     align-items: center;
     color: #1f2937; 
-    
-    border:3px solid yellow;
+    padding: 5%;
 }
 
 .quote{
@@ -154,12 +150,7 @@
 
 
 .call-to-action{
-    border: 3px solid green;
     padding: 5%;
-    
-   
-    
-
 }
 
 .action-container{
@@ -169,8 +160,8 @@
     align-items: baseline;
     border-radius: 10px;
     background-color:#3882f6;
-    width: 800px;
-    padding:20px 40px ;
+    width: 1000px;
+    padding:20px ;
 
     
 }
@@ -197,6 +188,6 @@
 footer{
     background-color: #1f2937;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     color: #f9faf8;
 }
