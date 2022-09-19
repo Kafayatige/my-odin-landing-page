@@ -168,7 +168,7 @@
     justify-content: space-around;
     align-items: baseline;
     border-radius: 10px;
-    background-color: royalblue;
+    background-color:#3882f6;
     width: 800px;
     padding:20px 40px ;
 
@@ -186,9 +186,17 @@
 
 .action-container button{
     border: 1px solid white;
-    background-color: transparent;
+    background-color: #3882f6;
     border-radius: 7px;
     padding: 5px 15px 5px 15px;
     color: white;
     margin: 20px 0 ;
+}
+
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 5%;
+    color: #f9faf8;
 }
